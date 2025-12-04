@@ -1,5 +1,5 @@
 {
-  "name": "vite-open-in-editor",
+  "name": "vite-plugin-open-in-editor",
   "author": "stagas",
   "version": "1.0.0",
   "description": "Middleware for navigating to files in editor by clicking Devtools links.",
@@ -10,9 +10,9 @@
     "test": "echo ok"
   },
   "devDependencies": {
-    "@types/node": "^20.14.4",
+    "@types/node": "^24.9.1",
     "ambient-dts": "github:stagas/ambient-dts",
-    "vite": "^5.3.3"
+    "vite": "^7.1.12"
   },
   "dependencies": {
     "open-in-editor": "^2.2.0"

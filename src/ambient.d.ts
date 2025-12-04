@@ -5,6 +5,7 @@ module 'open-in-editor' {
     configure(opts: {
       editor: string
       dotfiles: string
+      pattern: string
     }): {
       open(filename: string): Promise<void>
     }
