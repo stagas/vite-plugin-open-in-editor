@@ -1,5 +1,3 @@
-/// <reference types="ambient-dts" />
-
 module 'open-in-editor' {
   export default {
     configure(opts: {
