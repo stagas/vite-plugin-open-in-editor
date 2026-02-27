@@ -1,15 +1,16 @@
 {
   "lockfileVersion": 1,
+  "configVersion": 0,
   "workspaces": {
     "": {
       "name": "vite-open-in-editor",
       "dependencies": {
-        "open-in-editor": "latest",
+        "open-in-editor": "^2.2.0",
       },
       "devDependencies": {
-        "@types/node": "latest",
+        "@types/node": "^24.9.1",
         "ambient-dts": "github:stagas/ambient-dts",
-        "vite": "latest",
+        "vite": "^7.1.12",
       },
     },
   },
