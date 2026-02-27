@@ -3,7 +3,7 @@
   "author": "stagas",
   "version": "1.0.0",
   "description": "Middleware for navigating to files in editor by clicking Devtools links.",
-  "license": "AGPLv3",
+  "license": "MIT",
   "type": "module",
   "main": "src/index.ts",
   "scripts": {
@@ -11,8 +11,7 @@
   },
   "devDependencies": {
     "@types/node": "^24.9.1",
-    "ambient-dts": "github:stagas/ambient-dts",
-    "vite": "^7.1.12"
+    "vite": "*"
   },
   "dependencies": {
     "open-in-editor": "^2.2.0"
